@@ -497,3 +497,419 @@ footer span {
     }
 
 }
+
+/* =========================
+ABOUT PAGE
+========================= */
+
+.about-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 25px;
+}
+
+.about-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about-title h1 {
+    margin-top: 5px;
+    font-size: 65px;
+    color: #222222;
+    text-shadow: 5px 5px 0 #cccccc;
+}
+
+.about-intro {
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #777777;
+}
+
+/* =========================
+ABOUT CARDS
+========================= */
+
+.about-card {
+    background-color: #ffffff;
+    border: 4px solid #222222;
+    border-radius: 18px;
+    padding: 35px;
+    margin-bottom: 30px;
+    box-shadow: 8px 8px 0 #222222;
+}
+
+.about-card h2 {
+    font-size: 34px;
+    color: #222222;
+    margin-bottom: 15px;
+}
+
+.about-card p {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #555555;
+    margin-bottom: 15px;
+}
+
+.about-card p:last-child {
+    margin-bottom: 0;
+}
+
+/* =========================
+PROFILE
+========================= */
+
+.about-profile {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile-icon {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #d6e8ff;
+
+    border: 4px solid #4d8dcc;
+    border-radius: 20px;
+
+    font-size: 70px;
+
+    box-shadow: 6px 6px 0 #4d8dcc;
+
+}
+
+/* =========================
+CARD HEADINGS
+========================= */
+
+.card-heading {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.card-heading h2 {
+    margin: 0;
+}
+
+.card-icon {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #eeeeee;
+
+    border: 3px solid #222222;
+    border-radius: 12px;
+
+    font-size: 28px;
+
+    box-shadow: 4px 4px 0 #222222;
+
+}
+
+/* =========================
+SKILLS
+========================= */
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.skill {
+    padding: 20px 10px;
+
+    background-color: #f5f5f5;
+
+    border: 3px solid #222222;
+    border-radius: 12px;
+
+    text-align: center;
+
+    box-shadow: 4px 4px 0 #bbbbbb;
+
+    transition: 0.2s;
+
+}
+
+.skill:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0 #bbbbbb;
+}
+
+.skill span {
+    display: block;
+    font-size: 21px;
+    margin-bottom: 6px;
+}
+
+.skill small {
+    font-family: Arial, sans-serif;
+    color: #777777;
+    font-size: 13px;
+}
+
+/* =========================
+ABOUT GAMES
+========================= */
+
+.about-games {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.about-game {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    padding: 20px;
+
+    background-color: #f7f7f7;
+
+    border: 3px solid #222222;
+    border-radius: 13px;
+
+    transition: 0.2s;
+
+}
+
+.about-game:hover {
+    transform: translate(-3px, -3px);
+}
+
+.about-game-icon {
+    width: 75px;
+    height: 75px;
+    flex-shrink: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 12px;
+
+    font-size: 42px;
+
+}
+
+.cookie-about {
+    border-left: 6px solid #c47a32;
+}
+
+.cookie-about .about-game-icon {
+    background-color: #fff0dc;
+    border: 3px solid #c47a32;
+}
+
+.snake-about {
+    border-left: 6px solid #7554b8;
+}
+
+.snake-about .about-game-icon {
+    background-color: #e5ddff;
+    border: 3px solid #7554b8;
+}
+
+.about-game h3 {
+    font-size: 24px;
+    margin-bottom: 7px;
+}
+
+.about-game p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* =========================
+FUTURE
+========================= */
+
+.future-about {
+    background-color: #fafafa;
+}
+
+.coming-soon {
+    display: inline-block;
+
+    margin-top: 15px;
+    padding: 10px 16px;
+
+    background-color: #eeeeee;
+
+    border: 3px solid #888888;
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    color: #666666;
+
+}
+
+/* =========================
+BIG MESSAGE
+========================= */
+
+.big-message {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.big-message h2 {
+    font-size: 35px;
+    color: #222222;
+}
+
+.big-message p {
+    margin-top: 10px;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 17px;
+    color: #777777;
+
+}
+
+.biggest-bird {
+    display: inline-block;
+
+    margin-top: 15px;
+    padding: 15px 25px;
+
+    background-color: #252525;
+
+    color: white;
+
+    border: 4px solid #111111;
+    border-radius: 12px;
+
+    font-size: 22px;
+
+    box-shadow: 5px 5px 0 #888888;
+
+}
+
+/* =========================
+BACK BUTTON
+========================= */
+
+.about-home-button {
+    display: block;
+
+    width: fit-content;
+
+    margin: 10px auto 45px;
+
+    padding: 13px 25px;
+
+    background-color: #4d8dcc;
+
+    color: white;
+
+    border: 3px solid #222222;
+    border-radius: 9px;
+
+    font-size: 19px;
+
+    text-decoration: none;
+
+    box-shadow: 4px 4px 0 #222222;
+
+    transition: 0.2s;
+
+}
+
+.about-home-button:hover {
+    background-color: #6fa9e3;
+
+    transform: translate(-2px, -2px);
+
+    box-shadow: 6px 6px 0 #222222;
+
+}
+
+/* =========================
+ABOUT MOBILE
+========================= */
+
+@media screen and (max-width: 768px) {
+
+    .about-page {
+        padding: 45px 15px;
+    }
+
+    .about-title h1 {
+        font-size: 48px;
+    }
+
+    .about-card {
+        padding: 25px;
+    }
+
+    .about-profile {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .skills {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-games {
+        grid-template-columns: 1fr;
+    }
+
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .about-title h1 {
+        font-size: 40px;
+    }
+
+    .about-card h2 {
+        font-size: 28px;
+    }
+
+    .skills {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .skill span {
+        font-size: 18px;
+    }
+
+    .about-game {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .big-message h2 {
+        font-size: 28px;
+    }
+
+    .biggest-bird {
+        font-size: 17px;
+    }
+
+}
