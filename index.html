@@ -5,93 +5,283 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Game Hub</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">    
 
 </head>
 
 <body>
+    
+    <!-- =========================
+     NAVBAR
+========================== -->
 
     <nav class="navbar">
 
         <div class="logo">
+
             Game Hub
 
             <span class="subtitle">
                 By Luis Gonzalez, The Biggest Bird
             </span>
+
         </div>
 
+
         <ul class="nav-links">
-            <li><a href="index.html">Home Page</a></li>
-            <li><a href="about.html">About Page</a></li>
+
+            <li>
+                <a href="index.html">HOME</a>
+            </li>
+
+            <li>
+                <a href="about.html">ABOUT</a>
+            </li>
+
         </ul>
 
     </nav>
 
 
-    <section class="hero">
 
-        <h1>My Games</h1>
+    <!-- =========================
+     MAIN
+========================== -->
 
-        <p class="main-text">
-            Welcome to my Game Hub!
-            Choose a game below to play.
-        </p>
+    <main class="hero">
 
 
-        <div class="games">
+        <!-- TITLE -->
 
+        <div class="hero-title">
 
-            <!-- COOKIE GAME -->
+            <p class="small-title">
+                WELCOME TO
+            </p>
 
-            <div class="game">
+            <h1>GAME HUB</h1>
 
-                <h2>🍪 My Cookie Game</h2>
+            <p class="tagline">
+                Play. Discover. Repeat.
+            </p>
 
-                <p>
-                    Click cookies, buy upgrades, earn achievements,
-                    and see how many cookies you can make!
-                </p>
-
-                <a href="http://dumprichk.github.io/Cookie-Clicker" target="_blank">
-                    Play Game
-                </a>
-
-            </div>
-
-
-            <!-- SNAKE GAME -->
-
-            <div class="game">
-
-                <h2>🐍 Snake</h2>
-
-                <p>
-                    Grow your snake, collect food,
-                    and try to get the highest score!
-                </p>
-
-                <a href="http://dumprichk.github.io/Snake" target="_blank">
-                    Play Game
-                </a>
-
-            </div>
-
-
-            <!-- FUTURE GAMES GO HERE -->
-
+            <p class="main-text">
+                A collection of games made by Luis Gonzalez.
+            </p>
 
         </div>
 
-    </section>
 
+
+        <!-- =========================
+         FEATURED GAME
+    ========================== -->
+
+        <section class="featured">
+
+            <div class="featured-label">
+                ⭐ FEATURED GAME
+            </div>
+
+
+            <div class="featured-content">
+
+                <div class="featured-icon">
+                    🍪
+                </div>
+
+
+                <div class="featured-info">
+
+                    <p class="game-type">
+                        IDLE / CLICKER
+                    </p>
+
+                    <h2>
+                        Cookie Clicker
+                    </h2>
+
+                    <p>
+                        Click cookies, buy upgrades, unlock achievements,
+                        and see how far you can grow your cookie empire.
+                    </p>
+
+
+                    <a class="featured-button" href="https://dumprichk.github.io/Cookie-Clicker/" target="_blank">
+                        PLAY NOW →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+         GAME SECTION
+    ========================== -->
+
+        <section class="game-section">
+
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="section-label">
+                        THE COLLECTION
+                    </p>
+
+                    <h2>
+                        MY GAMES
+                    </h2>
+
+                </div>
+
+
+                <div class="game-count">
+                    2 GAMES
+                </div>
+
+            </div>
+
+
+
+            <!-- GAME GRID -->
+
+            <div class="games">
+
+
+                <!-- COOKIE GAME -->
+
+                <article class="game cookie-game">
+
+                    <div class="game-icon">
+                        🍪
+                    </div>
+
+                    <div class="game-info">
+
+                        <p class="game-type">
+                            IDLE / CLICKER
+                        </p>
+
+                        <h3>
+                            Cookie Clicker
+                        </h3>
+
+                        <p>
+                            Make cookies, buy upgrades,
+                            and unlock achievements.
+                        </p>
+
+                    </div>
+
+
+                    <a href="https://dumprichk.github.io/Cookie-Clicker/" target="_blank" class="game-button">
+                        PLAY NOW
+                    </a>
+
+                </article>
+
+
+
+                <!-- SNAKE -->
+
+                <article class="game snake-game">
+
+                    <div class="game-icon">
+                        🐍
+                    </div>
+
+                    <div class="game-info">
+
+                        <p class="game-type">
+                            ARCADE
+                        </p>
+
+                        <h3>
+                            Snake
+                        </h3>
+
+                        <p>
+                            Eat, grow, and try to get
+                            the highest score possible.
+                        </p>
+
+                    </div>
+
+
+                    <a href="https://dumprichk.github.io/Snake/" target="_blank" class="game-button">
+                        PLAY NOW
+                    </a>
+
+                </article>
+
+
+
+                <!-- FUTURE GAME -->
+
+                <article class="game future-game">
+
+                    <div class="game-icon">
+                        🎮
+                    </div>
+
+                    <div class="game-info">
+
+                        <p class="game-type">
+                            COMING SOON
+                        </p>
+
+                        <h3>
+                            More Games
+                        </h3>
+
+                        <p>
+                            New games will appear here
+                            as I make them.
+                        </p>
+
+                    </div>
+
+
+                    <span class="game-button disabled">
+                        COMING SOON
+                    </span>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =========================
+     FOOTER
+========================== -->
 
     <footer>
-        &copy; 2026 Game Hub
+
+        © 2026 Game Hub
+
+        <span>
+            •
+        </span>
+
+        Made by Luis Gonzalez
+
     </footer>
-    ```
 
 </body>
 
