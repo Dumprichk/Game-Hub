@@ -266,12 +266,6 @@ body {
     transform: scale(1.08) rotate(-2deg);
 }
 
-/* =========================
-GAME CATEGORY COLORS
-Use one category class on each .game card.
-Old .cookie-game and .snake-game classes are kept compatible.
-========================= */
-
 /* Clicker Games — orange */
 .clicker-game .game-icon {
     background-color: #fff0dc;
