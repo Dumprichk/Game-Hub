@@ -266,16 +266,34 @@ body {
     transform: scale(1.08) rotate(-2deg);
 }
 
-.cookie-game .game-icon {
+.clicker-game .game-icon {
     background-color: #fff0dc;
     border: 4px solid #c47a32;
     box-shadow: 5px 5px 0 #c47a32;
 }
 
-.snake-game .game-icon {
+.clicker-game .game-button {
+    background-color: #c47a32;
+}
+
+.clicker-game .game-button:hover {
+    transform: translate(-2px, -2px);
+    background-color: #df984e;
+}
+
+.arcade-game .game-icon {
     background-color: #e5ddff;
     border: 4px solid #7554b8;
     box-shadow: 5px 5px 0 #7554b8;
+}
+
+.arcade-game .game-button {
+    background-color: #7554b8;
+}
+
+.arcade-game .game-button:hover {
+    transform: translate(-2px, -2px);
+    background-color: #9275d0;
 }
 
 .future-game .game-icon {
@@ -284,21 +302,15 @@ body {
     box-shadow: 5px 5px 0 #888888;
 }
 
-.game-info {
-    flex: 1;
+.future-game .game-button {
+    background-color: #888888;
+    cursor: default;
 }
 
-.game-info h3 {
-    font-size: 32px;
-    color: #222222;
-    margin-bottom: 10px;
-}
-
-.game-info p:not(.game-type) {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #666666;
+.future-game .game-button:hover {
+    background-color: #888888;
+    transform: none;
+    box-shadow: 4px 4px 0 #222222;
 }
 
 .game-button {
@@ -313,43 +325,6 @@ body {
     text-decoration: none;
     box-shadow: 4px 4px 0 #222222;
     transition: 0.2s;
-}
-
-.game-button:hover {
-    background-color: #6fa9e3;
-    transform: translate(-2px, -2px);
-    box-shadow: 6px 6px 0 #222222;
-}
-
-.cookie-game .game-button {
-    background-color: #c47a32;
-}
-
-.cookie-game .game-button:hover {
-    background-color: #df984e;
-}
-
-.snake-game .game-button {
-    background-color: #7554b8;
-}
-
-.snake-game .game-button:hover {
-    background-color: #9275d0;
-}
-
-.future-game {
-    opacity: 0.75;
-}
-
-.future-game .game-button {
-    background-color: #888888;
-    cursor: default;
-}
-
-.future-game .game-button:hover {
-    background-color: #888888;
-    transform: none;
-    box-shadow: 4px 4px 0 #222222;
 }
 
 footer {
